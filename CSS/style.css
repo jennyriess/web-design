@@ -1,0 +1,22 @@
+body {
+  background-color: #800000; }
+  body h1 {
+    padding: 100px;
+    font-size: 24px;
+    font-style: italic;
+    color: #FFFFFF; }
+  body p {
+    padding: 100px;
+    font-size: 24px;
+    font-style: italic;
+    color: #FFFFFF; }
+
+nav ul {
+  display: flex;
+  justify-content: space-around; }
+nav li {
+  list-style: none; }
+nav a {
+  color: #FFFFFF; }
+
+/*# sourceMappingURL=style.css.map */

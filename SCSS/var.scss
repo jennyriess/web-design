@@ -1,0 +1,16 @@
+$pink:  #ff69b4;
+
+$purp: #800000;
+
+$yella: #FFFF00;
+
+$red: #FF0000;
+
+$white: #FFFFFF;
+
+@mixin large ($white, $yella) {
+  padding: 100px;
+  font-size: 24px;
+  font-style: italic;
+  color: $white;
+}

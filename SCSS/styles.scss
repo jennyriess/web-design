@@ -1,0 +1,31 @@
+@import 'var';
+
+body {
+
+  background-color: $purp;
+
+    h1 {
+    @include large ($white, $yella);
+  }
+
+    p {
+    @include large ($white, $yella);
+  }
+
+}
+
+nav {
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: $white;
+  }
+
+}
