@@ -1,0 +1,62 @@
+body {
+    background-color:#232323;
+    color: white;
+    background-image: url("../assets/tashback.jpg");
+    background-position: auto;
+    background-repeat: no-repeat;
+}
+
+nav {
+  margin-bottom: 150px;
+}
+
+.widget {
+  height: 125px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.lemon {
+  color: yellow;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+th {
+  font-weight: normal;
+}
+
+a {
+  color: white;
+}
+
+tr:hover{
+    background-color: rgba(255,255,255,.3);
+    transition:.5s;
+}
+
+tr{
+  transition:.5s;
+}
+
+footer {
+  margin-top: 50px;
+  height: 100px;
+  padding: 30px;
+  text-align:center;
+}
